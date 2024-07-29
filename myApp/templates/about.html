@@ -1,0 +1,52 @@
+<!-- templates/about.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About CompetitionMaster</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <!-- Uključivanje CSS-a za stiliziranje -->
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to CompetitionMaster Site</h1>
+    </header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="{% url 'main' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'signup' %}">Signup</a></li>
+                <li> <a href="{% url 'logout' %}">Logout</a></li>
+            </ul>
+        </nav>
+
+    <div class="card">
+        <p>
+            Dragi ljubitelji sporta,
+
+            Hvala vam što koristite našu web aplikaciju CompetitionMaster. Naš cilj je pružiti jednostavan i moderniziran alat za planiranje natjecanja koji će biti dostupan širokom krugu volontera trenera, sportskih stručnjaka i roditelja. Želimo vam omogućiti da se usredotočite na sport, a ne na upravljanje programom.
+
+            Ideja za CompetitionMaster rodila se kao rješenje za izazove u organizaciji natjecanja u svim sportovima. Naša web aplikacija omogućuje neovisan rad bez obzira na operativni sustav, te čak funkcionira na mobilnim telefonima i tabletima!
+
+            Unatoč svojim naprednim značajkama, CompetitionMaster je izuzetno jednostavan za korištenje. Uvijek nam je bilo važno logički prikazati napredak turnira. Naš tim ima iskustva u vođenju brojnih sportskih događanja, uključujući organizaciju raznovrsnih natjecanja.
+
+            S CompetitionMasterom možete unaprijediti svoje događaje! Možete pojednostaviti planiranje, unaprijed objavljivati rasporede, ispisivati ih i nakon toga prezentirati rezultate online. Gledatelji, treneri i igrači cijenit će mogućnost jednostavne objave tablica i rezultata online, čime štedimo vrijeme svima, a gledatelji više ne moraju ručno računati tablice!
+
+            Prihodi od oglašavanja i licenciranja podržavaju rad i kontinuirani razvoj CompetitionMastera. Hvala vam na podršci.
+
+            Ako imate ideje, prijedloge ili povratne informacije, slobodno nas kontaktirajte.
+
+            S poštovanjem,
+        </p>
+    </div>
+    <footer>
+        <!-- Footer content here -->
+        <p>&copy; 2024 CompetitionMaster</p>
+    </footer>
+</body>
+</html>

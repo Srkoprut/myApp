@@ -1,0 +1,64 @@
+Projektna dokumentacija: CompetitionMaster
+Faza 1: Analiza zahtjeva
+Identifikacija korisnika
+
+U ovoj fazi, cilj je razumjeti specifične potrebe različitih korisničkih grupa koje će koristiti aplikaciju CompetitionMaster. Razmatramo sljedeće korisničke grupe:
+
+Sportski stručnjaci:
+
+Kreiranje i upravljanje natjecanjima, analiza performansi sportaša.
+Roditelji:
+
+Prijava i registracija sudionika, praćenje rasporeda i rezultata.
+Gledatelji:
+
+Pregled rasporeda i rezultata uživo, obavijesti i podsjetnici.
+Treneri:
+
+Kreiranje natjecanja za timove, unos rezultata, komunikacija s sportašima.
+Natjecatelji:
+
+Prijava na natjecanja, praćenje rezultata i statistika.
+Sudci:
+
+Upravljanje natjecanjima, komunikacija s ostalim sucima, unos rezultata.
+Amaterske sportske lige i klubovi:
+
+Lokalne lige i klubovi koji organiziraju natjecanja i turnire.
+Školske sportske lige i univerzitetske sportske organizacije.
+Sportski entuzijasti i rekreativci:
+
+Organizacija prijateljskih utakmica i turnira, okupljanje rekreativnih grupa.
+Sportski treneri i instruktori:
+
+Organizacija natjecanja za timove, rad s sportskim instruktorima.
+Sportski objekti i centri:
+
+Promocija usluga, organizacija natjecanja u sportskim dvoranama i na terenima.
+Sportske organizacije i savezi:
+
+Nacionalni i regionalni sportski savezi, sportske federacije koje organiziraju natjecanja.
+Škole i univerziteti:
+
+Obrazovne institucije koje organiziraju sportska natjecanja, fakulteti sa sportskim odjelima.
+Sponzori i promotori:
+
+Tvrtke koje sponzoriraju sportska natjecanja, marketinške agencije koje se bave sportskim aktivnostima.
+Ljubitelji sporta i publika:
+
+Pratitelji lokalnih sportskih događaja, fanovi koji žele sudjelovati u organizaciji i promociji.
+Potrebe iz perspektive različitih korisnika
+
+Detaljni opis potreba i funkcionalnosti za svaku korisničku grupu dati će se u daljnjim fazama razvoja aplikacije. Svaka grupa ima specifične zahtjeve za funkcionalnostima poput kreiranja natjecanja, praćenja rezultata, komunikacije i integracija s drugim sustavima (npr. kalendarima i društvenim mrežama).
+
+Ključne funkcionalnosti
+
+Ključne funkcionalnosti aplikacije CompetitionMaster obuhvaćaju:
+
+Kreiranje i upravljanje natjecanjima
+Planiranje i objava rasporeda
+Prijava i registracija sudionika
+Unos i prikaz rezultata
+Analitičke funkcije
+Upravljanje dokumentima
+Višejezičnost

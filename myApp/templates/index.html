@@ -1,0 +1,36 @@
+<!-- templates/index.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompetitionMaster</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to CompetitionMaster Site</h1>
+    </header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="{% url 'main' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
+            </ul>
+            <ul>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'signup' %}">Signup</a></li>
+            </ul>
+        </nav>
+    
+
+    
+
+    <footer>
+        <!-- Footer content here -->
+        <p>&copy; 2024 CompetitionMaster</p>
+    </footer>
+</body>
+</html>

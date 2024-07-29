@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompetitionMaster</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>CompetitionMaster Site</h1>
+    </header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="{% url 'main' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
+            </ul>
+        </nav>
+    
+
+    <main>
+        <section class="welcome">
+            <h1>Welcome, {{ user.username }}!</h1>
+            <p>Select your favorite sports below:</p>
+        </section>
+        <section class="cards">
+            {% for user_sport in user_sports %}
+            <div class="card">
+                <h2>{{ user_sport.sport.naziv_sporta }}</h2>
+                <p>{{ user_sport.sport.description }}</p>
+                <button>Select</button>
+            </div>
+            {% endfor %}
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content here -->
+        <p>&copy; 2024 CompetitionMaster</p>
+    </footer>
+</body>
+</html>
